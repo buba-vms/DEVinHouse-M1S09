@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+// IMPORTANTE!!!
+// Para vizaualizar o exercício resolvido
+// Mudar apenas o número do arquivo no import do Setup
+// Exemplo: './Exercicios/ex01' => './Exercicios/ex02'
+import Setup from './Exercicios/ex08';
+// import SetupAula from './Aulas/EX01Aula/Cronometro';
+//
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Setup />
+      {/* <SetupAula /> */}
     </div>
   );
 }
